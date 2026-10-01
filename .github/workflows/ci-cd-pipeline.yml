@@ -30,7 +30,7 @@ jobs:
 
       - name: Build application
         run: |
-          mkdir build
+          mkdir -p build
           cp app.py build/
           cp test_app.py build/
 
